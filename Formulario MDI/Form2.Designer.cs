@@ -63,10 +63,10 @@ namespace Formulario_MDI
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(318, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(296, 64);
+            this.label2.Size = new System.Drawing.Size(296, 96);
             this.label2.TabIndex = 2;
             this.label2.Text = "Echa en lenguaje c# con la finalidad de practicar\r\n algunos aspectos en programac" +
-    "ion\r\n\r\n ";
+    "ion\r\ne ir desarrollando los  aspectos a mejorar\r\n\r\n\r\n ";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button1
