@@ -32,5 +32,15 @@ namespace Formulario_MDI
             Form4 f4 = new Form4();
             f4.ShowDialog();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

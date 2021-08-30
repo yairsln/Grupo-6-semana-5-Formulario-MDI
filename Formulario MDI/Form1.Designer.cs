@@ -60,6 +60,7 @@ namespace Formulario_MDI
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.menuToolStripMenuItem.Text = "Menu 1";
+            this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
             // menuToolStripMenuItem1
             // 
@@ -105,6 +106,7 @@ namespace Formulario_MDI
             this.Name = "Form1";
             this.Text = "Formulario MDI";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
