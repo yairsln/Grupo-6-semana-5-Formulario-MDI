@@ -29,6 +29,7 @@ namespace Formulario_MDI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,6 +37,10 @@ namespace Formulario_MDI
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cuadroDeDialogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcion1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcion2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcion3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +53,8 @@ namespace Formulario_MDI
             this.menu3ToolStripMenuItem,
             this.acercaDeToolStripMenuItem,
             this.ayudaToolStripMenuItem,
-            this.cuadroDeDialogoToolStripMenuItem});
+            this.cuadroDeDialogoToolStripMenuItem,
+            this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -57,6 +63,10 @@ namespace Formulario_MDI
             // 
             // menuToolStripMenuItem
             // 
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.opcion1ToolStripMenuItem,
+            this.opcion2ToolStripMenuItem,
+            this.opcion3ToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.menuToolStripMenuItem.Text = "Menu 1";
@@ -95,10 +105,36 @@ namespace Formulario_MDI
             this.cuadroDeDialogoToolStripMenuItem.Text = "Cuadro de Dialogo ";
             this.cuadroDeDialogoToolStripMenuItem.Click += new System.EventHandler(this.cuadroDeDialogoToolStripMenuItem_Click);
             // 
+            // opcion1ToolStripMenuItem
+            // 
+            this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
+            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opcion1ToolStripMenuItem.Text = "opcion 1";
+            // 
+            // opcion2ToolStripMenuItem
+            // 
+            this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opcion2ToolStripMenuItem.Text = "opcion 2";
+            // 
+            // opcion3ToolStripMenuItem
+            // 
+            this.opcion3ToolStripMenuItem.Name = "opcion3ToolStripMenuItem";
+            this.opcion3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opcion3ToolStripMenuItem.Text = "opcion 3";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
@@ -123,6 +159,10 @@ namespace Formulario_MDI
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cuadroDeDialogoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opcion1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opcion2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opcion3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }
 

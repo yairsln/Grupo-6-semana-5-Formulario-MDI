@@ -10,27 +10,23 @@ using System.Windows.Forms;
 
 namespace Formulario_MDI
 {
-    public partial class Form2 : Form
+    public partial class Form5 : Form
+       
     {
-        public Form2()
+        public Form5()
         {
             InitializeComponent();
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Close();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
+            if (txt_usuario.Text == "usuario1" || txt_contraseña.Text == "usuario1")
+            {
+               
+                Form1 f1 = new Form1();
+                f1.Show();   
+                this.Hide();  
+            }
         }
     }
 }

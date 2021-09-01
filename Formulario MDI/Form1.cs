@@ -37,10 +37,20 @@ namespace Formulario_MDI
         {
 
         }
+       
+
+           
+
 
         private void menuToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
+    
 }

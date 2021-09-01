@@ -38,6 +38,7 @@ namespace Formulario_MDI
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Form2";
             this.Text = "Acerca de ";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
         }
