@@ -22,11 +22,15 @@ namespace Formulario_MDI
         {
             if (txt_usuario.Text == "usuario1" || txt_contraseña.Text == "usuario1")
             {
-               
+
                 Form1 f1 = new Form1();
-                f1.Show();   
-                this.Hide();  
+                f1.Show();
+                this.Hide();
             }
+            else
+                MessageBox.Show(" Contraseña o Usuario Incorrecto");
+
+               
             
         }
 
