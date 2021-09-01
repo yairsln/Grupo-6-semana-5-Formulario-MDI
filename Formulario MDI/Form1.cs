@@ -19,7 +19,7 @@ namespace Formulario_MDI
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
+            AboutBox1 f2 = new AboutBox1();
             f2.ShowDialog();
         }
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
