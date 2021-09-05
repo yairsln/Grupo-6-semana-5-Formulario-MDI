@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("Formulario MDI")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Smartphones el talegon")]
+[assembly: AssemblyDescription("Sistema de inventario")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyCompany("Smartphones el talegon Inc.")]
 [assembly: AssemblyProduct("Formulario MDI")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2021")]
 [assembly: AssemblyTrademark("")]
