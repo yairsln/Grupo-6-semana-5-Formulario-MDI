@@ -32,21 +32,21 @@ namespace Formulario_MDI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcion1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcion2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcion3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cuadroDeDialogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.opcion1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.opcion2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.opcion3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem,
             this.menuToolStripMenuItem1,
@@ -71,6 +71,24 @@ namespace Formulario_MDI
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.menuToolStripMenuItem.Text = "Menu 1";
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
+            // 
+            // opcion1ToolStripMenuItem
+            // 
+            this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
+            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.opcion1ToolStripMenuItem.Text = "opcion 1";
+            // 
+            // opcion2ToolStripMenuItem
+            // 
+            this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.opcion2ToolStripMenuItem.Text = "opcion 2";
+            // 
+            // opcion3ToolStripMenuItem
+            // 
+            this.opcion3ToolStripMenuItem.Name = "opcion3ToolStripMenuItem";
+            this.opcion3ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.opcion3ToolStripMenuItem.Text = "opcion 3";
             // 
             // menuToolStripMenuItem1
             // 
@@ -104,24 +122,6 @@ namespace Formulario_MDI
             this.cuadroDeDialogoToolStripMenuItem.Size = new System.Drawing.Size(121, 20);
             this.cuadroDeDialogoToolStripMenuItem.Text = "Cuadro de Dialogo ";
             this.cuadroDeDialogoToolStripMenuItem.Click += new System.EventHandler(this.cuadroDeDialogoToolStripMenuItem_Click);
-            // 
-            // opcion1ToolStripMenuItem
-            // 
-            this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
-            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.opcion1ToolStripMenuItem.Text = "opcion 1";
-            // 
-            // opcion2ToolStripMenuItem
-            // 
-            this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
-            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.opcion2ToolStripMenuItem.Text = "opcion 2";
-            // 
-            // opcion3ToolStripMenuItem
-            // 
-            this.opcion3ToolStripMenuItem.Name = "opcion3ToolStripMenuItem";
-            this.opcion3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.opcion3ToolStripMenuItem.Text = "opcion 3";
             // 
             // salirToolStripMenuItem
             // 
