@@ -80,6 +80,7 @@ namespace Formulario_MDI
             // 
             // labelProductName
             // 
+            this.labelProductName.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.labelProductName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelProductName.Location = new System.Drawing.Point(143, 0);
             this.labelProductName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
