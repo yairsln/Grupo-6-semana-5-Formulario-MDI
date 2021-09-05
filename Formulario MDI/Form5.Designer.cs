@@ -1,7 +1,7 @@
 ﻿
 namespace Formulario_MDI
 {
-    partial class Form5
+    partial class form5
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Formulario_MDI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form5));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txt_usuario = new System.Windows.Forms.TextBox();
@@ -103,10 +103,11 @@ namespace Formulario_MDI
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // Form5
+            // form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(404, 184);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
@@ -115,7 +116,9 @@ namespace Formulario_MDI
             this.Controls.Add(this.txt_usuario);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form5";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "form5";
+            this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

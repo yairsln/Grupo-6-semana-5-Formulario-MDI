@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Formulario_MDI
 {
-    public partial class Form5 : Form
+    public partial class form5 : Form
        
     {
-        public Form5()
+        public form5()
         {
             InitializeComponent();
         }
