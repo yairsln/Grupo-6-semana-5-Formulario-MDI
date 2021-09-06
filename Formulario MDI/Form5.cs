@@ -28,7 +28,7 @@ namespace Formulario_MDI
                 this.Hide();
             }
             else
-                MessageBox.Show(" Contraseña o Usuario Incorrecto");
+                MessageBox.Show(" Contraseña o nombre incorrecto");
 
                
             
