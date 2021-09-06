@@ -20,7 +20,7 @@ namespace Formulario_MDI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txt_usuario.Text == "usuario1" || txt_contraseña.Text == "usuario1")
+            if (txt_usuario.Text == "usuario1" || txt_contraseña.Text == "fernando12345")
             {
 
                 Form1 f1 = new Form1();
