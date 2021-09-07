@@ -51,6 +51,12 @@ namespace Formulario_MDI
         {
             Application.Exit();
         }
+
+        private void opcion1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+        }
     }
 
 }

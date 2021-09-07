@@ -128,5 +128,14 @@
   <ItemGroup>
     <None Include="Resources\287eceb5-ad2a-4c7a-b900-08fca59e388d.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\superfiesta-combos-hamburguesas-panchos-ahora-se-suman-choripan-803386-192019.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\domicilio_38687_744x744.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
