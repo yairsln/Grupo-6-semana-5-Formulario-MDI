@@ -57,6 +57,13 @@ namespace Formulario_MDI
             Form2 f2 = new Form2();
             f2.ShowDialog();
         }
+
+        private void opcion2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+    partial class combo
+            Form f6 = new Formcombo();
+            f6.ShowDialog();
+        }
     }
 
 }

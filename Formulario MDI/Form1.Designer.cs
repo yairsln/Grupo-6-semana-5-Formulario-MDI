@@ -83,7 +83,8 @@ namespace Formulario_MDI
             // 
             this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
             this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.opcion2ToolStripMenuItem.Text = "opcion 2";
+            this.opcion2ToolStripMenuItem.Text = "combo 2";
+            this.opcion2ToolStripMenuItem.Click += new System.EventHandler(this.opcion2ToolStripMenuItem_Click);
             // 
             // opcion3ToolStripMenuItem
             // 

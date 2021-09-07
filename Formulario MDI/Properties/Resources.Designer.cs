@@ -93,6 +93,16 @@ namespace Formulario_MDI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap helado__644x362 {
+            get {
+                object obj = ResourceManager.GetObject("helado--644x362", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap superfiesta_combos_hamburguesas_panchos_ahora_se_suman_choripan_803386_192019 {
             get {
                 object obj = ResourceManager.GetObject("superfiesta-combos-hamburguesas-panchos-ahora-se-suman-choripan-803386-192019", resourceCulture);

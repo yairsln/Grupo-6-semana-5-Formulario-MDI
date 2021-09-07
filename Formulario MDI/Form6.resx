@@ -117,20 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="287eceb5-ad2a-4c7a-b900-08fca59e388d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\287eceb5-ad2a-4c7a-b900-08fca59e388d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="superfiesta-combos-hamburguesas-panchos-ahora-se-suman-choripan-803386-192019" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\superfiesta-combos-hamburguesas-panchos-ahora-se-suman-choripan-803386-192019.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="domicilio_38687_744x744" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\domicilio_38687_744x744.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="helado--644x362" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\helado--644x362.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

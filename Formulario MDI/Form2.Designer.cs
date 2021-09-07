@@ -31,11 +31,8 @@ namespace Formulario_MDI
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -63,16 +60,6 @@ namespace Formulario_MDI
             this.label2.Text = "1- Hamburguesa de doble carne con queso derretido, tomate. pepino y huevo frito\r\n" +
     "2- Hot dog \r\n1-Salsa de tomate \r\n1-Salsa de queso\r\n1-Salsa de mornay";
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Formulario_MDI.Properties.Resources.domicilio_38687_744x744;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 436);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(301, 190);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Formulario_MDI.Properties.Resources.superfiesta_combos_hamburguesas_panchos_ahora_se_suman_choripan_803386_192019;
@@ -93,24 +80,11 @@ namespace Formulario_MDI
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(319, 436);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(553, 48);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "1-Hamburguesa de doble carne y doble queso con tocino y lechuga y salsa de hongos" +
-    "\r\n1-Orden de papa \r\n1- una soda pequeña ";
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(895, 670);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
@@ -118,7 +92,6 @@ namespace Formulario_MDI
             this.Name = "Form2";
             this.Text = "Combo 1";
             this.TransparencyKey = System.Drawing.Color.Transparent;
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -132,7 +105,5 @@ namespace Formulario_MDI
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label3;
     }
 }
