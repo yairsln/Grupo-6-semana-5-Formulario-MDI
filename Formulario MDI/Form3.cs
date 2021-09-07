@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Formulario_MDI
 {
@@ -15,10 +17,12 @@ namespace Formulario_MDI
         public Form3()
         {
             InitializeComponent();
+           
         }
-
+        
         private void Form3_Load(object sender, EventArgs e)
         {
+            
 
         }
 

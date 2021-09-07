@@ -39,6 +39,7 @@ namespace Formulario_MDI
             this.textBox1.Location = new System.Drawing.Point(32, 103);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(705, 276);
             this.textBox1.TabIndex = 0;
             // 
@@ -72,7 +73,9 @@ namespace Formulario_MDI
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ayuda";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
