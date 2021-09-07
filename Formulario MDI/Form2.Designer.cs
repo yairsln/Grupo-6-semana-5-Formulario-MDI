@@ -96,13 +96,13 @@ namespace Formulario_MDI
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(330, 436);
+            this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(319, 436);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(485, 54);
+            this.label3.Size = new System.Drawing.Size(553, 48);
             this.label3.TabIndex = 5;
-            this.label3.Text = "1-Hamburguesa de doble carne y doble queso con tocino y lechuga \r\n1-Orden de papa" +
-    " \r\n1- una soda pequeña ";
+            this.label3.Text = "1-Hamburguesa de doble carne y doble queso con tocino y lechuga y salsa de hongos" +
+    "\r\n1-Orden de papa \r\n1- una soda pequeña ";
             // 
             // Form2
             // 
