@@ -41,6 +41,9 @@ namespace Formulario_MDI
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cuadroDeDialogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.heladosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.budinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tartaletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,41 +71,46 @@ namespace Formulario_MDI
             this.opcion2ToolStripMenuItem,
             this.opcion3ToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.menuToolStripMenuItem.Text = "Menu 1";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.menuToolStripMenuItem.Text = "Combos";
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
             // opcion1ToolStripMenuItem
             // 
             this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
-            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion1ToolStripMenuItem.Text = "combo 1";
             this.opcion1ToolStripMenuItem.Click += new System.EventHandler(this.opcion1ToolStripMenuItem_Click);
             // 
             // opcion2ToolStripMenuItem
             // 
             this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
-            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion2ToolStripMenuItem.Text = "combo 2";
             this.opcion2ToolStripMenuItem.Click += new System.EventHandler(this.opcion2ToolStripMenuItem_Click);
             // 
             // opcion3ToolStripMenuItem
             // 
             this.opcion3ToolStripMenuItem.Name = "opcion3ToolStripMenuItem";
-            this.opcion3ToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.opcion3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion3ToolStripMenuItem.Text = "opcion 3";
             // 
             // menuToolStripMenuItem1
             // 
             this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
-            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(59, 20);
-            this.menuToolStripMenuItem1.Text = "Menu 2";
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(70, 20);
+            this.menuToolStripMenuItem1.Text = "Ensaladas";
             // 
             // menu3ToolStripMenuItem
             // 
+            this.menu3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.heladosToolStripMenuItem,
+            this.budinToolStripMenuItem,
+            this.tartaletaToolStripMenuItem});
             this.menu3ToolStripMenuItem.Name = "menu3ToolStripMenuItem";
-            this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.menu3ToolStripMenuItem.Text = "Menu 3";
+            this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.menu3ToolStripMenuItem.Text = "Postres";
+            this.menu3ToolStripMenuItem.Click += new System.EventHandler(this.menu3ToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -131,6 +139,25 @@ namespace Formulario_MDI
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // heladosToolStripMenuItem
+            // 
+            this.heladosToolStripMenuItem.Name = "heladosToolStripMenuItem";
+            this.heladosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.heladosToolStripMenuItem.Text = "Helados";
+            this.heladosToolStripMenuItem.Click += new System.EventHandler(this.heladosToolStripMenuItem_Click);
+            // 
+            // budinToolStripMenuItem
+            // 
+            this.budinToolStripMenuItem.Name = "budinToolStripMenuItem";
+            this.budinToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.budinToolStripMenuItem.Text = "Budin ";
+            // 
+            // tartaletaToolStripMenuItem
+            // 
+            this.tartaletaToolStripMenuItem.Name = "tartaletaToolStripMenuItem";
+            this.tartaletaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tartaletaToolStripMenuItem.Text = "Tartaleta";
             // 
             // Form1
             // 
@@ -167,6 +194,9 @@ namespace Formulario_MDI
         private System.Windows.Forms.ToolStripMenuItem opcion2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem opcion3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem heladosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem budinToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tartaletaToolStripMenuItem;
     }
 }
 

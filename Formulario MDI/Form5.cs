@@ -28,10 +28,10 @@ namespace Formulario_MDI
                 this.Hide();
             }
             else
-                MessageBox.Show(" Contraseña o nombre incorrecto");
-           
-               
-            
+                MessageBox.Show("usuario o contraseña incorrecta", " Nose encontro usuario", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
