@@ -41,6 +41,8 @@ namespace Formulario_MDI
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -61,7 +63,7 @@ namespace Formulario_MDI
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(319, 221);
+            this.label2.Location = new System.Drawing.Point(330, 268);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(529, 80);
             this.label2.TabIndex = 3;
@@ -71,7 +73,7 @@ namespace Formulario_MDI
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Formulario_MDI.Properties.Resources.superfiesta_combos_hamburguesas_panchos_ahora_se_suman_choripan_803386_192019;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 208);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 268);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(301, 204);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -132,7 +134,7 @@ namespace Formulario_MDI
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(570, 375);
+            this.button4.Location = new System.Drawing.Point(667, 449);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(70, 37);
             this.button4.TabIndex = 8;
@@ -142,7 +144,7 @@ namespace Formulario_MDI
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(445, 375);
+            this.button5.Location = new System.Drawing.Point(521, 448);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(77, 37);
             this.button5.TabIndex = 9;
@@ -152,7 +154,7 @@ namespace Formulario_MDI
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(333, 375);
+            this.button6.Location = new System.Drawing.Point(357, 448);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(71, 37);
             this.button6.TabIndex = 10;
@@ -163,17 +165,41 @@ namespace Formulario_MDI
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(330, 325);
+            this.label4.Location = new System.Drawing.Point(354, 394);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(441, 18);
             this.label4.TabIndex = 11;
             this.label4.Text = "Mejores ingredientes mejor hamburguesa y mejores hot dog";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(779, 53);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 24);
+            this.label5.TabIndex = 12;
+            this.label5.Text = " $ 2.50";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(784, 324);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(60, 24);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "$ 4.00";
             // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(895, 670);
+            this.BackColor = System.Drawing.Color.Khaki;
+            this.ClientSize = new System.Drawing.Size(895, 498);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -186,6 +212,7 @@ namespace Formulario_MDI
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form6";
             this.Text = "Combo 1";
             this.TransparencyKey = System.Drawing.Color.Transparent;
@@ -210,5 +237,7 @@ namespace Formulario_MDI
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

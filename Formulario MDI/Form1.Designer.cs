@@ -46,7 +46,7 @@ namespace Formulario_MDI
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.menuStrip1.BackColor = System.Drawing.Color.Khaki;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem,
             this.menuToolStripMenuItem1,
@@ -75,21 +75,21 @@ namespace Formulario_MDI
             // opcion1ToolStripMenuItem
             // 
             this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
-            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.opcion1ToolStripMenuItem.Text = "combo 1";
             this.opcion1ToolStripMenuItem.Click += new System.EventHandler(this.opcion1ToolStripMenuItem_Click);
             // 
             // opcion2ToolStripMenuItem
             // 
             this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
-            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.opcion2ToolStripMenuItem.Text = "combo 2";
             this.opcion2ToolStripMenuItem.Click += new System.EventHandler(this.opcion2ToolStripMenuItem_Click);
             // 
             // opcion3ToolStripMenuItem
             // 
             this.opcion3ToolStripMenuItem.Name = "opcion3ToolStripMenuItem";
-            this.opcion3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opcion3ToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.opcion3ToolStripMenuItem.Text = "opcion 3";
             // 
             // menuToolStripMenuItem1
