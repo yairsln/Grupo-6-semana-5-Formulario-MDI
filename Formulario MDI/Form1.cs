@@ -72,7 +72,26 @@ namespace Formulario_MDI
 
         private void heladosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+             form9 f9 = new form9();
+            f9.ShowDialog();
+        }
 
+        private void opcion3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form8 f8 = new Form8();
+            f8.ShowDialog();
+        }
+
+        private void budinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form10 f10 = new Form10();
+            f10.ShowDialog();
+        }
+
+        private void tartaletaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form11 f11 = new Form11();
+            f11.ShowDialog();
         }
     }
 

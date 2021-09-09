@@ -37,13 +37,13 @@ namespace Formulario_MDI
             this.opcion3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.heladosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.budinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tartaletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cuadroDeDialogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.heladosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.budinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tartaletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,7 +93,8 @@ namespace Formulario_MDI
             // 
             this.opcion3ToolStripMenuItem.Name = "opcion3ToolStripMenuItem";
             this.opcion3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.opcion3ToolStripMenuItem.Text = "opcion 3";
+            this.opcion3ToolStripMenuItem.Text = "combo 3";
+            this.opcion3ToolStripMenuItem.Click += new System.EventHandler(this.opcion3ToolStripMenuItem_Click);
             // 
             // menuToolStripMenuItem1
             // 
@@ -111,6 +112,27 @@ namespace Formulario_MDI
             this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.menu3ToolStripMenuItem.Text = "Postres";
             this.menu3ToolStripMenuItem.Click += new System.EventHandler(this.menu3ToolStripMenuItem_Click);
+            // 
+            // heladosToolStripMenuItem
+            // 
+            this.heladosToolStripMenuItem.Name = "heladosToolStripMenuItem";
+            this.heladosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.heladosToolStripMenuItem.Text = "Helados";
+            this.heladosToolStripMenuItem.Click += new System.EventHandler(this.heladosToolStripMenuItem_Click);
+            // 
+            // budinToolStripMenuItem
+            // 
+            this.budinToolStripMenuItem.Name = "budinToolStripMenuItem";
+            this.budinToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.budinToolStripMenuItem.Text = "Budin ";
+            this.budinToolStripMenuItem.Click += new System.EventHandler(this.budinToolStripMenuItem_Click);
+            // 
+            // tartaletaToolStripMenuItem
+            // 
+            this.tartaletaToolStripMenuItem.Name = "tartaletaToolStripMenuItem";
+            this.tartaletaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tartaletaToolStripMenuItem.Text = "Tartaleta";
+            this.tartaletaToolStripMenuItem.Click += new System.EventHandler(this.tartaletaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -139,25 +161,6 @@ namespace Formulario_MDI
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // heladosToolStripMenuItem
-            // 
-            this.heladosToolStripMenuItem.Name = "heladosToolStripMenuItem";
-            this.heladosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.heladosToolStripMenuItem.Text = "Helados";
-            this.heladosToolStripMenuItem.Click += new System.EventHandler(this.heladosToolStripMenuItem_Click);
-            // 
-            // budinToolStripMenuItem
-            // 
-            this.budinToolStripMenuItem.Name = "budinToolStripMenuItem";
-            this.budinToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.budinToolStripMenuItem.Text = "Budin ";
-            // 
-            // tartaletaToolStripMenuItem
-            // 
-            this.tartaletaToolStripMenuItem.Name = "tartaletaToolStripMenuItem";
-            this.tartaletaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tartaletaToolStripMenuItem.Text = "Tartaleta";
             // 
             // Form1
             // 
