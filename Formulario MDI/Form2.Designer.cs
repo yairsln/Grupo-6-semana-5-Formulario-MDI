@@ -99,6 +99,7 @@ namespace Formulario_MDI
             this.button1.TabIndex = 4;
             this.button1.Text = "elegir";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -109,6 +110,7 @@ namespace Formulario_MDI
             this.button2.TabIndex = 5;
             this.button2.Text = "cancelar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -151,6 +153,7 @@ namespace Formulario_MDI
             this.button5.TabIndex = 9;
             this.button5.Text = "cancelar";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -161,6 +164,7 @@ namespace Formulario_MDI
             this.button6.TabIndex = 10;
             this.button6.Text = "elegir";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label4
             // 
