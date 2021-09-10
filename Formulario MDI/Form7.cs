@@ -29,12 +29,12 @@ namespace Formulario_MDI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Esta Seguro de Comprar este combo?", " Confirmacion de Compra", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
+            MessageBox.Show("Esta Seguro de Comprar este combo?", " Confirmacion de Compra", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Esta Seguro de Comprar este combo?", " Confirmacion de Compra", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
+            MessageBox.Show("Esta Seguro de Comprar este combo?", " Confirmacion de Compra", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
         }
 
         private void button2_Click(object sender, EventArgs e)
