@@ -19,7 +19,7 @@ namespace Formulario_MDI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Esta Seguro de Comprar este Postre?", " Confirmacion de Compra", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            MessageBox.Show("Esta Seguro de Comprar este Postre?", " Confirmacion de Compra", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
         }
 
         private void button2_Click(object sender, EventArgs e)
