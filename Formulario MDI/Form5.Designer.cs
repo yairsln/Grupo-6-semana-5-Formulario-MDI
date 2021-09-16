@@ -113,6 +113,7 @@ namespace Formulario_MDI
             this.button3.TabIndex = 7;
             this.button3.Text = "Login con Acces";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -141,6 +142,7 @@ namespace Formulario_MDI
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "form5";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
