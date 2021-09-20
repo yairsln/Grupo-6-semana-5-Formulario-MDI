@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.OleDb;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace Formulario_MDI
 {
     public partial class form5 : Form
-       
+
     {
         OleDbConnection conexion = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\Database1.accdb");
 
@@ -51,20 +52,20 @@ namespace Formulario_MDI
             }
             catch (Exception a)
             {
-                MessageBox.Show("error por"+ a.ToString());
+                MessageBox.Show("error por" + a.ToString());
             }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string consulta = "select password,usuario from login where password ='"+ txtpass.Text + "' and usuario = '"+ txtusuario.Text +"';";
-            OleDbCommand comando = new OleDbCommand(consulta,conexion);
+            string consulta = "select password,usuario from login where password ='" + txtpass.Text + "' and usuario = '" + txtusuario.Text + "';";
+            OleDbCommand comando = new OleDbCommand(consulta, conexion);
             OleDbDataReader leedb;
             leedb = comando.ExecuteReader();
             Boolean existereg = leedb.HasRows;
-            if(existereg)
+            if (existereg)
             {
-                MessageBox.Show("bienvenido al sistema" +  txtusuario.Text);
+                MessageBox.Show("bienvenido al sistema" + txtusuario.Text);
                 Form1 f1 = new Form1();
                 f1.Show();
                 this.Hide();
@@ -77,5 +78,10 @@ namespace Formulario_MDI
             }
             conexion.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+        } 
     }
 }

@@ -8,6 +8,7 @@ using System.Linq;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Windows.Forms;
 
@@ -24,7 +25,7 @@ namespace Formulario_MDI
         
         private void Form3_Load(object sender, EventArgs e)
         {
-            StreamReader archivo = new StreamReader("c:\\ayuda.txt"); 
+            StreamReader archivo = new StreamReader("C:\\texto.txt"); 
             string linea = "";
             ArrayList contenido = new ArrayList();
             while (linea!= null)
